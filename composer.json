@@ -1,0 +1,19 @@
+{
+  "name": "rodcko/frameworks-php",
+  "description": "Proyecto basic",
+  "authors": [
+    {
+      "name": "Rodrigo Hernández",
+      "email": "42217144+rodcko@users.noreply.github.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/helpers.php"
+    ]
+  }
+}
